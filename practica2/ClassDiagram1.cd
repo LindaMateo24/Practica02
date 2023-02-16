@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Car_Wash.Persona">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIEACAAgAAAAAAAAAAAAAAAAgAAAgA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Vehiculo1">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAgAAAAEA=</HashCode>
+      <FileName>Vehiculo1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Equipos">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAgAAAA=</HashCode>
+      <FileName>Equipos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.TipoDeLavado">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAACIAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>TipoDeLavado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Producto">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAACAAAAAACgAAAAAAAAAAhA=</HashCode>
+      <FileName>Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Establecimiento">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAACAAgAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Establecimiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Servicios">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Servicios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Inventario">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Inventario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Empleado">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Empleado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Cliente">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Sedan">
+    <Position X="13.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sedan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Camion">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Camion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.ProductoEnVenta">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductoEnVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.ProductoUso">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductoUso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car_Wash.Jepeeta">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Jepeeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Car_Wash.iProducto">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>iProducto.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Car_Wash.iEquipos">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>iEquipos.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Car_Wash.iIventario">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAABAAAAAAAAAAAgAEAAAAAAAAAAA=</HashCode>
+      <FileName>iIventario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Inventario" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Car_Wash.iServicios">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>iServicios.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Servicios" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Car_Wash.iEstablecimiento">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>iEstablecimiento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Establecimiento" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Car_Wash.iVehiculo">
+    <Position X="15.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>iVehiculo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Car_Wash.Estado">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Estado.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Car_Wash.TipoDeVehiculo">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAgAQAAAQAgAAAAAAAA=</HashCode>
+      <FileName>TipoDeVehiculo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Car_Wash.TipoProducto">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipoProducto.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
